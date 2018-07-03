@@ -1,3 +1,5 @@
 def oxford_comma(array)
-puts array.join(", ")
+  case array
+  when array == 2
+    return array.join(" and ")
 end
