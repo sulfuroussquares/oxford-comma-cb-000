@@ -7,6 +7,6 @@ def oxford_comma(array)
     lastWord = array[-1]
     array.pop
     newArray = array.join(", ")
-    return newArray + lastword
+    return newArray + lastWord
   end
 end
