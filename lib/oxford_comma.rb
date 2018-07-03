@@ -4,8 +4,9 @@ def oxford_comma(array)
   elsif array.length == 1
     return array.join
   else
-    array[0]
+    lastWord = array[-1]
     array.pop
-    return array.join(", ")
+    newArray = array.join(", ")
+    return newArray
   end
 end
